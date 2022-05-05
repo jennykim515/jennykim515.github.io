@@ -1,2 +1,0 @@
-# PersonalWebsiteTutorial
-Personal Website Tutorial!
