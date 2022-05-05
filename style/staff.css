@@ -1,0 +1,48 @@
+.staff {
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.staff img {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.staff a {
+    color: darkred;
+    text-decoration: none;
+}
+
+.staff-info {
+    float: left;
+    height: 150px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+@media (max-width: 800px) {
+    .OH {
+        display: block;
+        
+    }
+    #form {
+        width: 100%;
+        margin-bottom: 75px;
+    }
+    #sheets {
+        width: 100%;
+    }
+    #calendar {
+        width: 100%;
+    }
+}
