@@ -31,10 +31,6 @@
 }
 
 @media (max-width: 800px) {
-    .OH {
-        display: block;
-        
-    }
     #form {
         width: 100%;
     }
