@@ -37,14 +37,17 @@
     }
     #form {
         width: 100%;
-        margin: 5px;
-        margin-bottom: 75px;
     }
     #sheets {
-        width: 100%;
+        display: none;
     }
     #calendar {
         width: 100%;
-        /* / */
     }
+    .staff {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
 }

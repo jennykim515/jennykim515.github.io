@@ -63,4 +63,14 @@ th, td {
     .container {
         width: 90%;
     }
+
+    /* nav bar */
+    #navbar {
+        text-align: center;
+    }
+    #navbar a {
+        width: 100%;
+        line-height: 300%;
+    }
 }
+
