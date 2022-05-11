@@ -9,11 +9,31 @@ const oh_form_link = "https://www.google.com"
 // Link to the Office hours Google Sheets queue
 const oh_queue_link = "https://www.usc.edu"
 
-// Next assignment name (e.g. "1" for Assignment 1)
-const next_assignment_due = "1"
+const assignments = {
+    "Assignment 1": new Date("2022-06-18"),
+    "Assignment 2": new Date("2022-04-24"),
+    "Assignment 3": new Date("2022-04-30"),
+    "Assignment 4": new Date("2022-05-8"),
+    "Assignment 5": new Date("2022-06-17"),
+    "Assignment 6": new Date("2022-06-24"),
+    "Assignment 7": new Date("2022-06-28"),
+    "Assignment 8": new Date("2022-07-10"),
+    "Assignment 9": new Date("2022-07-17"),
+    "Assignment 10": new Date("2022-07-24")
+};
 
-// Next Lab name (e.g. "1" for Lab 1) 
-const next_lab_due = "1"
+const labs = {
+    "Lab 1": new Date("2022-04-17"),
+    "Lab 2": new Date("2022-04-24"),
+    "Lab 3": new Date("2022-04-30"),
+    "Lab 4": new Date("2022-05-8"),
+    "Lab 5": new Date("2022-06-17"),
+    "Lab 6": new Date("2022-06-24"),
+    "Lab 7": new Date("2022-06-28"),
+    "Lab 8": new Date("2022-07-10"),
+    "Lab 9": new Date("2022-07-17"),
+    "Lab 10": new Date("2022-07-24")
+};
 
-export{semester, oh_form_link, oh_queue_link, next_assignment_due, next_lab_due}
+export{semester, oh_form_link, oh_queue_link, assignments, labs}
 

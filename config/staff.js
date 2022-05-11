@@ -7,3 +7,4 @@ form_link.setAttribute("href", oh_form_link);
 let queue_link = document.querySelector("#queue_link");
 queue_link.innerHTML = oh_queue_link;
 queue_link.setAttribute("href", oh_queue_link);
+
