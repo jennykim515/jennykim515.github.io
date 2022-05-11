@@ -33,7 +33,6 @@
 @media (max-width: 800px) {
     #form {
         min-width:100%;
-        border: thin black solid;
     }
     #sheets {
         display: none;

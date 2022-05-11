@@ -11,7 +11,7 @@ body, html {
     letter-spacing: 1px;
 }
 #navbar {
-    background-color:#a00404;
+    background-color:rgb(28, 24, 24);
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -59,6 +59,22 @@ th, td {
 .active {
     color: blue;
 }
+
+#memo {
+    width: 100%;
+    /* height: 70px; */
+    background-color: #fff4e2;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: thin solid #ffeccc;
+    padding: 10px;
+}
+
+#memo p  {
+    padding: 0px;
+    margin: 5px;
+}
+
 @media (max-width: 800px) {
     .container {
         width: 90%;
