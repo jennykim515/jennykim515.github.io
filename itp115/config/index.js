@@ -1,4 +1,5 @@
 import {semester, assignments, labs} from './config.js';
+console.log("HELLO")
 
 let semester_grab = document.querySelector("#semester");
 semester_grab.innerHTML = semester;

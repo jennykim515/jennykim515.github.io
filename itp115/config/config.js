@@ -1,4 +1,9 @@
-// DEFINE CONSTANTS HERE AND IT WILL LOAD ON THE PAGE
+
+/***
+
+DEFINE CONSTANTS HERE AND IT WILL LOAD ON THE PAGE 
+
+*/
 
 // The academic semeseter (e.g. Summer 2022)
 const semester = "Summer 2022"
@@ -9,8 +14,10 @@ const oh_form_link = "https://www.google.com"
 // Link to the Office hours Google Sheets queue
 const oh_queue_link = "https://www.usc.edu"
 
+// Link to piazza classroom
 const piazza_link = "https://www.google.com"
 
+// TODO: define deadlines for assignments
 const assignments = {
     "Assignment 1": new Date("2022-06-18"),
     "Assignment 2": new Date("2022-04-24"),
@@ -24,6 +31,7 @@ const assignments = {
     "Assignment 10": new Date("2022-07-24")
 };
 
+// TODO: define deadlines for labs
 const labs = {
     "Lab 1": new Date("2022-04-17"),
     "Lab 2": new Date("2022-04-24"),
@@ -37,5 +45,6 @@ const labs = {
     "Lab 10": new Date("2022-07-24")
 };
 
+// ignore
 export{semester, oh_form_link, oh_queue_link, assignments, labs, piazza_link}
 
