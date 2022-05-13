@@ -1,4 +1,4 @@
-// DEFINE HERE AND IT WILL LOAD ON THE PAGE
+// DEFINE CONSTANTS HERE AND IT WILL LOAD ON THE PAGE
 
 // The academic semeseter (e.g. Summer 2022)
 const semester = "Summer 2022"
@@ -8,6 +8,8 @@ const oh_form_link = "https://www.google.com"
 
 // Link to the Office hours Google Sheets queue
 const oh_queue_link = "https://www.usc.edu"
+
+const piazza_link = "https://www.google.com"
 
 const assignments = {
     "Assignment 1": new Date("2022-06-18"),
