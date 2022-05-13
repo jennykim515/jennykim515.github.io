@@ -37,5 +37,5 @@ const labs = {
     "Lab 10": new Date("2022-07-24")
 };
 
-export{semester, oh_form_link, oh_queue_link, assignments, labs}
+export{semester, oh_form_link, oh_queue_link, assignments, labs, piazza_link}
 
