@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111;
+    color: white;
+}
+h1 {
+    color: #feb2b7;
+}
+p {
+    font-size: 1.2em;
+    color: #b0b0b0;
+}
+* {
+    box-sizing: border-box;
+}
+.bio {
+    width: 60%;
+    margin: auto;
+}
+
+.section {
+    margin: 10px 0px;
+    width: 100%;
+    padding: 20px;
+}
+.section h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* SKILLS section */
+.skill-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+#skill-section {
+    padding: 20px;
+}
+.skills {
+    padding: 10px 0px;
+    text-align: right;
+    color: white;
+}
+
+.css {width: 80%; background-color: pink;}
+.js {width: 55%; background-color: pink;}
+.php {width: 50%; background-color: pink;}
+.python{width: 90%; background-color: pink;}
+.java{width: 40%; background-color: pink;}
+.c{width: 90%; background-color: pink;}
+
+/* PROJECTS SECTION */
+.project {
+    border: 1px solid pink;
+    padding: 30px;
+    /* height: 500px; */
+}
+.image-frame {
+    height: 300px;
+    border: 5px solid blue;
+    overflow: hidden;
+}
+.image-frame img {
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px 0px;
+    color:black;
+    position: relative;
+    background-color: #a2d9ff;
+}
+
+
+/* SQUIGGLY LINE */
+hr{
+    border: none;
+}
+hr:after{
+    content: '∿∿∿∿∿∿∿∿';
+    color: #b0b0b0;
+    /* Ratio -> font-size/letter-spacing = 6.25 */
+    letter-spacing: -9.6px;
+    font-size: 60px;
+}
+
+/* NAVBAR from: https://codepen.io/WebDevSimplified/pen/LqKQRK */
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111111;
+    color: white;
+    margin-bottom: 30px;
+    padding: 5px 50px;
+    border-bottom: #b0b0b0 solid thin;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 1rem;
+}
+.navbar-links li a:hover {
+    color: rgb(241, 103, 126);
+}
+
+
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .bio {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Personal project using Raspberry Pi to stitch together a time lapse video of microgreens">
+	<meta name="keywords" content="HTML, CSS, Personal Website, Coding">
+	<meta name="author" content="Jenny Kim">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Microgreen Timelapse</title>
+	<link rel="stylesheet" href="projectstyle.css">
+
+</head>
+<body>
+<a href="../index.html"><div id="nav">Projects</div></a>
+<div class="part" id="third">
+<div class="container">
+	<div class="item">
+	<h1>Intro</h1>
+	<p>Automated picture taker with Raspberry Pi 4 and a camera module. Picture is taken every hour and is stitched together to make a time-lapse video.</p>
+
+	<img class="responsive" src="../img/pi_setup.jpg" alt="pi set up">
+		
+	</div>
+
+	
+</div>	
+</div>
+
+<div class="part" id="first">
+<div class="container">
+	<div class="item">
+	<h1>Demo</h1>
+		<div id="vid">
+			<iframe width="640" height="480" src="https://www.youtube.com/embed/HvHrXUlKWDE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	
+</div>	
+</div>
+
+<div class="part" id="second">
+<div class="container">
+	<div class="item">
+	<h1>What I Learned</h1>
+	<p>Setup: This is the first time I've used a raspberry pi. The most difficult part of the project was setting up. The lighting of the room had to be good at all hours of the day and the location should not move. I also learned how to set up the pi by hooking it up with a monitor, keyboard, and mouse. I worked only on the terminal to set up this project.</p>
+
+	<p>Cron: I learned how to use cron with this project. At one hour intervals, the pi took a picture and placed them in a folder. At the end, I was able to stitch a timelapse video together using a tutorial <a href="https://www.tomshardware.com/how-to/raspberry-pi-time-lapse-video">here.</a>
+
+	</div>
+
+	
+</div>	
+
+</div>
+</body>
+</html>

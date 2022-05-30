@@ -22,7 +22,7 @@ let due_dates = document.querySelector("#due-dates");
 // assignment due dates
 let assignment_key = findNextAssignment(assignments);
 if(assignment_key) {
-    due_dates.innerHTML += assignment_key + " is due " + assignments[assignment_key].toDateString() + "<br>";
+    due_dates.innerHTML += assignment_key + " is due " + assignments[assignment_key].toDateString() + " at 11:59 P.M.<br>";
 } else {
     due_dates.innerHTML = "No assignments are due for a while.<br>";
 }
@@ -30,7 +30,7 @@ if(assignment_key) {
 // lab due dates
 let lab_key = findNextAssignment(labs);
 if(lab_key) {
-    due_dates.innerHTML += lab_key + " is due " + labs[lab_key].toDateString();
+    due_dates.innerHTML += lab_key + " is due " + labs[lab_key].toDateString() + " at 11:59 P.M";
 } else {
     due_dates.innerHTML = "No labs are due for a while.";
 }
