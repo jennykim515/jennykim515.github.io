@@ -79,6 +79,9 @@ footer {
     background-color: #a2d9ff;
 }
 
+svg {
+    border-bottom: #a2d9ff thin solid;
+}
 
 /* SQUIGGLY LINE */
 hr{
