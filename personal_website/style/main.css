@@ -74,9 +74,9 @@ p {
 footer {
     text-align: center;
     padding: 25px 0px;
-    color:black;
+    color:#b0b0b0;
     position: relative;
-    background-color: pink;
+    /* background-color: pink; */
 }
 
 svg {
