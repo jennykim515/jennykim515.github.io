@@ -47,12 +47,12 @@ p {
     color: white;
 }
 
-.css {width: 80%; background-color: pink;}
-.js {width: 55%; background-color: pink;}
-.php {width: 50%; background-color: pink;}
-.python{width: 90%; background-color: pink;}
-.java{width: 40%; background-color: pink;}
-.c{width: 90%; background-color: pink;}
+.css {width: 80%; background-color: rgb(244, 122, 142);}
+.js {width: 55%; background-color: rgb(244, 122, 142);}
+.php {width: 50%; background-color: rgb(244, 122, 142);}
+.python{width: 90%; background-color: rgb(244, 122, 142);}
+.java{width: 40%; background-color: rgb(244, 122, 142);}
+.c{width: 90%; background-color: rgb(244, 122, 142);}
 
 /* PROJECTS SECTION */
 .project {
@@ -76,11 +76,11 @@ footer {
     padding: 25px 0px;
     color:black;
     position: relative;
-    background-color: #a2d9ff;
+    background-color: pink;
 }
 
 svg {
-    border-bottom: #a2d9ff thin solid;
+    border-bottom: pink thin solid;
 }
 
 /* SQUIGGLY LINE */
