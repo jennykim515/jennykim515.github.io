@@ -112,6 +112,7 @@ footer {
 }
 
 .desc p {
+    padding: 0;
     color: gray;
 }
 
