@@ -93,9 +93,6 @@ PROJECTS
     height: 300px;
     overflow: hidden;
 }
-.desc {
-    border: 1px solid yellow;
-}
 .container-fluid {
     width: 80%;
 }
