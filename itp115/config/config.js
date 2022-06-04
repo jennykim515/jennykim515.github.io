@@ -6,7 +6,7 @@ DEFINE CONSTANTS HERE AND IT WILL LOAD ON THE PAGE
 */
 
 // The academic semeseter (e.g. Summer 2022)
-const semester = "Summer 2022"
+const semester = "Fall 2022"
 
 // Link to the Office hours Google form 
 const oh_form_link = "https://www.google.com"
