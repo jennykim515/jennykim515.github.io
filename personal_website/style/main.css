@@ -81,7 +81,6 @@ footer {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    /* border: 3px solid yellow; */
     padding: 13px 0px;
 }
 .project:hover .frame {
