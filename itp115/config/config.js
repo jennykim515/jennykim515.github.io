@@ -25,8 +25,8 @@ const assignments = {
     "Assignment 3": new Date("06-12-2022"),
     "Assignment 4": new Date("06-19-2022"),
     "Assignment 5": new Date("06-26-2022"),
-    "Test": "TBA",
-    "Assignment 6": new Date("07-10-2022"),
+    "Test": new Date("07-10-2022"),
+    "Assignment 6": new Date("07-12-2022"),
     "Assignment 7": new Date("07-17-2022"),
     "Assignment 8": new Date("07-24-2022"),
     "Assignment 9": new Date("07-31-2022")
@@ -47,5 +47,5 @@ const labs = {
 };
 
 // ignore
-export{semester, oh_form_link, oh_queue_link, assignments, labs, piazza_link}
+export { semester, oh_form_link, oh_queue_link, assignments, labs, piazza_link }
 
