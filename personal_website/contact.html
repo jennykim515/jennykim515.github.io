@@ -9,6 +9,7 @@
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="icon" href="../personal_website/images/heart.png" type="image/gif">
   <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/contact.css">
   <style>
     footer {
       bottom: 0;
@@ -53,12 +54,28 @@
     </div>
   </nav>
   <div class="container">
-    <div class="bio">
+    <!-- <div class="bio">
       <h1>connect with me</h1>
       <br>
       <p>Email: <a href="mailto:yjkim@usc.edu">yjkim@usc.edu</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/yjennykim">linkedin.com/in/yjennykim</a></p>
       <p>Github: <a href="https://github.com/jennykim515">github.com/jennykim515</a></p>
+    </div> -->
+    <div className='container form-container'>
+      <form className='contact-form p-5' action="https://formspree.io/f/maykynpy" method="POST">
+        <h1>Contact Me</h1>
+        <hr>
+        </hr>
+        <div className='form-item inputs'>
+          <div className='input me-3'> <label> Name: <input type="text" name="text" required /> </label> </div>
+          <div className='input'> <label> Email <input type="email" name="email" required /> </label> </div>
+        </div>
+        <div className='form-item'> <label> Message: <textarea cols="51" rows="5" name="message" required></textarea>
+          </label> </div>
+        <div className='form-item'>
+          <button type="submit" className='button-84 sub-button-84 send-btn'>Send</button>
+        </div>
+      </form>
     </div>
   </div>
 
