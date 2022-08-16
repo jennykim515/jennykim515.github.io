@@ -62,22 +62,22 @@ p {
 }
 
 .js {
-    width: 55%;
+    width: 60%;
     background-color: rgb(244, 122, 142);
 }
 
 .php {
-    width: 50%;
+    width: 40%;
     background-color: rgb(244, 122, 142);
 }
 
 .react {
-    width: 53%;
+    width: 60%;
     background-color: rgb(244, 122, 142);
 }
 
 .node {
-    width: 50%;
+    width: 40%;
     background-color: rgb(244, 122, 142);
 }
 
