@@ -19,7 +19,7 @@ const piazza_link = "https://piazza.com/class/l3c41pt2qqi4p2?cid=14"
 
 // TODO: define deadlines for assignments
 const assignments = {
-    "Assignment 0": new Date("05-22-2022"),
+    "Assignment 0": new Date("08-19-2022"),
     "Assignment 1": new Date("05-29-2022"),
     "Assignment 2": new Date("06-05-2022"),
     "Assignment 3": new Date("06-12-2022"),
