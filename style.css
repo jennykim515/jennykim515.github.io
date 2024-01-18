@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 60%;
+    font-size: 1.1em;
+    margin: auto;
+    padding: 30px;
+}
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+}
+
+#email {
+    font-size: 0.9em;
+    color: gray;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 2.5rem; 
+}

@@ -1,284 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="icon" href="../personal_website/images/heart.png" type="image/gif">
-    <title>Jenny's Personal Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <style>
-        .btn-primary {
-            background-color: rgb(239, 161, 161);
-            border: none;
-            border-radius: 15px;
-            padding: 3px 10px;
-        }
-
-        .btn-primary:hover {
-            background-color: rgb(218, 115, 115);
-        }
-
-        .btn-secondary {
-            background-color: rgb(159, 154, 154);
-            border: none;
-            border-radius: 15px;
-            padding: 3px 10px;
-        }
-
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .card:hover {
-            box-shadow: 5px 6px #b6b4b482;
-        }
-
-        .btn-youtube {
-            background-color: rgb(177, 23, 23);
-            border: none;
-            border-radius: 15px;
-            padding: 3px 10px;
-            color: white;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="album.css" rel="stylesheet">
-    <link rel="stylesheet" href="../personal_website/style/main.css">
-
+    <title>Jenny's Corner</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="brand-title">Jenny Kim</div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="index.html">Projects</a></li>
-                <li><a href="personal_website/about.html">About</a></li>
-                <li><a href="personal_website/contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section class="jumbotron text-center">
-        <div class="container">
-            <h1>Projects</h1>
-            <p class="lead text-muted">Here you can see some of the projects I've done on my own time or for school.
-                They're not in any particular order. Click on the buttons to find out more!</p>
-
-        </div>
-    </section>
-
     <div class="container">
+        <header>
+            <a class="name" href="www.linkedin.com/in/yjennykim" target="_blank">Jenny Kim</a>
+            <br/>
+            <a class="name" id="email" href="mailto:yjkim@usc.edu">yjkim [at] usc [dot] edu</a>
+        </header>
 
-        <!-- Typing Test Project -->
-        <div class="card-columns">
-            <div class="card">
-                <img src="../personal_website/images/typingtest.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Typing Test for Dads</h5>
-                    <p class="card-text">React, MongoDB, NodeJS, Netlify, Heroku</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/typing-test',
-                        '_blank' 
-                      );">Github
-                    </button>
-
-                    <button class="btn-secondary" onclick="window.open(
-                        'https://typingtestfordads.netlify.app/',
-                        '_blank' 
-                      );">View Live
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../personal_website/images/chat.gif" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Quick Chatroom</h5>
-                    <p class="card-text">React, Socket.io</p>
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/chat',
-                        '_blank' 
-                      );">Github
-                    </button>
-
-                </div>
-            </div>
-
-
-            <!-- Workout Project -->
-            <div class="card">
-                <img src="../personal_website/images/workout.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Workout Tracker (followed tutorial)</h5>
-                    <p class="card-text">React, MongoDB, NodeJS, Netlify, Heroku</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/workouts',
-                        '_blank' 
-                      );">Github
-                    </button>
-
-                    <button class="btn-secondary" onclick="window.open(
-                        'https://main--yjkim-workouts.netlify.app/',
-                        '_blank' 
-                      );">View Live
-                    </button>
-                </div>
-            </div>
-
-            <!-- Fridge Tracker Project -->
-            <div class="card">
-                <img src="../personal_website/images/dashboard.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Safeat Fridge Tracker</h5>
-                    <p class="card-text">HTML/CSS, Javascript, SQL, PHP</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/fridge-tracker',
-                        '_blank' 
-                      );">Github
-                    </button>
-                    <!-- <button class="btn-secondary" onclick="window.open(
-                        'http://303.itpwebdev.com/~yjkim/final/',
-                        '_blank' 
-                      );">View Live
-                    </button> -->
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="../personal_website/images/gumball.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Gumball Machine</h5>
-                    <p class="card-text">C++, Particle Argon, Cloud Publishing</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/gumball',
-                        '_blank' 
-                      );">Github
-                    </button>
-                    <button class="btn-youtube" onclick="window.open(
-                        'https://www.youtube.com/watch?v=AvFr03KNsQU',
-                        '_blank' 
-                      );">YouTube Demo
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="personal_website/images/blog_image.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Text Gender Predictor</h5>
-                    <p class="card-text">Python (pandas/numpy)</p>
-                    <button class="btn-secondary" onclick="window.open(
-                        'personal_website/projects/blog.html',
-                        '_blank' 
-                      );">View Live
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="personal_website/images/trojancheck.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Auto TrojanCheck</h5>
-                    <p class="card-text">Python, Selenium web scraping</p>
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/trojancheck',
-                        '_blank' 
-                      );">Github
-                    </button>
-                    <button class="btn-youtube" onclick="window.open(
-                        'https://www.youtube.com/watch?v=BSGk8HRaPyo',
-                        '_blank' 
-                      );">YouTube Demo
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="personal_website/images/todo.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Todo App</h5>
-                    <p>React, Netlify, Local Storage</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/To-do-list',
-                        '_blank' 
-                      );">Github
-                    </button>
-                    <button class="btn-secondary" onclick="window.open(
-                        'https://yjkim-todo.netlify.app/',
-                        '_blank' 
-                      );">View Live
-                    </button>
-
-                </div>
-            </div>
-            <div class="card">
-                <img src="personal_website/images/hangman.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Hangman (first project)</h5>
-                    <p class="card-text">Python, turtle library</p>
-
-                    <button class="btn-primary" onclick="window.open(
-                        'https://github.com/jennykim515/hang-man',
-                        '_blank' 
-                      );">Github
-                    </button>
-                    <button class="btn-youtube" onclick="window.open(
-                        'https://www.youtube.com/watch?v=IYAJ1xd7Tn8',
-                        '_blank' 
-                      );">YouTube Demo
-                    </button>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="personal_website/images/plant.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Plant Timelapse</h5>
-                    <p class="card-text">Raspberry Pi, Cron Automation</p>
-                    <button class="btn-youtube" onclick="window.open(
-                        'https://www.youtube.com/watch?v=L2Z_VgWwkbI',
-                        '_blank' 
-                      );">YouTube Demo
-                    </button>
-
-                </div>
-            </div>
-
-
-        </div>
+        <br />
+        <hr/>
+        <br />
+        <p>Hello! I'm currently a senior at USC. I grew up mostly in Iowa and moved to LA for school. I'm a teaching assistant for an introductory programming class and have previously done internships at Reddit, JPL, and L3Harris. I'm primarily interested in backend engineering, and I'll be working as a software engineer this upcoming fall!</p>
+        <br />
+        <!-- <h3>Projects</h3> -->
+        <!-- <h3>Snippets</h3> -->
+        <br />
     </div>
-    <footer>Made with ❤ by Jenny | 2022</footer>
-    <script src="personal_website/navbar.js"></script>
+
+
+    
+    <footer>
+        <p>&copy; Jenny Kim 2023</p>
+    </footer>
 </body>
 
 
